@@ -107,54 +107,65 @@
         <ImageView
             android:id="@+id/T0101"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"
+            />
 
         <ImageView
             android:id="@+id/T0102"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0103"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0104"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0105"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0106"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0107"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0108"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0109"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0110"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0111"
@@ -171,54 +182,64 @@
         <ImageView
             android:id="@+id/T0201"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0202"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0203"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0204"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0205"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0206"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0207"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0208"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0209"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0210"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0211"
@@ -236,54 +257,65 @@
         <ImageView
             android:id="@+id/T0301"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0302"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0303"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF" />
+        />
 
         <ImageView
             android:id="@+id/T0304"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0305"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0306"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0307"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0308"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0309"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0310"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0311"
@@ -300,54 +332,64 @@
         <ImageView
             android:id="@+id/T0401"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0402"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0403"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0404"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0405"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0406"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0407"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0408"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0409"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0410"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0411"
@@ -364,54 +406,64 @@
         <ImageView
             android:id="@+id/T0501"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0502"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0503"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0504"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0505"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0506"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0507"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0508"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0509"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0510"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0511"
@@ -428,54 +480,64 @@
         <ImageView
             android:id="@+id/T0601"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0602"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0603"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0604"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0605"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0606"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0607"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0608"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0609"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0610"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0611"
@@ -492,54 +554,64 @@
         <ImageView
             android:id="@+id/T0701"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0702"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0703"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0704"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0705"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0706"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0707"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0708"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0709"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0710"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0711"
@@ -556,54 +628,65 @@
         <ImageView
             android:id="@+id/T0801"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0802"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0803"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0804"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0805"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0806"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0807"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0808"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0809"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0810"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0811"
@@ -620,54 +703,64 @@
         <ImageView
             android:id="@+id/T0901"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0902"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0903"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0904"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0905"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0906"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T0907"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0908"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0909"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0910"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T0911"
@@ -684,54 +777,64 @@
         <ImageView
             android:id="@+id/T1001"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1002"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1003"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1004"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1005"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1006"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1007"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1008"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1009"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1010"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1011"
@@ -749,54 +852,64 @@
         <ImageView
             android:id="@+id/T1101"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1102"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1103"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1104"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1105"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1106"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1107"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1108"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1109"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1110"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1111"
@@ -813,54 +926,64 @@
         <ImageView
             android:id="@+id/T1201"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1202"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1203"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1204"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1205"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1206"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1207"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1208"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1209"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1210"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1211"
@@ -877,54 +1000,64 @@
         <ImageView
             android:id="@+id/T1301"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1302"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1303"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1304"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1305"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1306"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1307"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1308"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1309"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1310"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1311"
@@ -941,54 +1074,64 @@
         <ImageView
             android:id="@+id/T1401"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1402"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1403"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1404"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1405"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1406"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1407"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1408"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1409"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1410"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1411"
@@ -1005,54 +1148,64 @@
         <ImageView
             android:id="@+id/T1501"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1502"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1503"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1504"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1505"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1506"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1507"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1508"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1509"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1510"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1511"
@@ -1069,54 +1222,64 @@
         <ImageView
             android:id="@+id/T1601"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1602"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1603"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1604"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1605"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1606"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1607"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1608"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1609"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1610"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1611"
@@ -1134,54 +1297,64 @@
         <ImageView
             android:id="@+id/T1701"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1702"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1703"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1704"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1705"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1706"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1707"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1708"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1709"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1710"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1711"
@@ -1198,54 +1371,64 @@
         <ImageView
             android:id="@+id/T1801"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1802"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1803"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1804"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1805"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1806"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1807"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1808"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1809"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1810"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1811"
@@ -1262,54 +1445,64 @@
         <ImageView
             android:id="@+id/T1901"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1902"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1903"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1904"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1905"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1906"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T1907"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1908"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1909"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1910"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T1911"
@@ -1326,54 +1519,64 @@
         <ImageView
             android:id="@+id/T2001"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T2002"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T2003"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T2004"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T2005"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T2006"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
 
         <ImageView
             android:id="@+id/T2007"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T2008"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T2009"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T2010"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1" />
+            android:layout_rowWeight="1"
+            android:background="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/T2011"
@@ -1466,36 +1669,38 @@
         tools:layout_editor_absoluteY="8dp">
 
         <ImageButton
-            android:id="@+id/imageButton15"
+            android:id="@+id/rotarBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/abajoBtn"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_centerVertical="true"
-            app:srcCompat="@drawable/cambiardireccion" />
+            android:layout_marginBottom="69dp"
+            app:srcCompat="@drawable/cambiardireccion"
+            tools:layout_editor_absoluteX="416dp"
+            tools:layout_editor_absoluteY="270dp" />
 
         <ImageButton
-            android:id="@+id/imageButton16"
+            android:id="@+id/derechaBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_above="@+id/izquierdaBtn"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="21dp"
             app:srcCompat="@drawable/flechaderecha" />
 
         <ImageButton
-            android:id="@+id/imageButton17"
+            android:id="@+id/izquierdaBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_above="@+id/rotarBtn"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/imageButton16"
-            android:layout_marginTop="18dp"
+            android:layout_marginBottom="70dp"
             app:srcCompat="@drawable/flechaizquierda" />
 
         <ImageButton
-            android:id="@+id/imageButton18"
+            android:id="@+id/infoBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -1504,14 +1709,35 @@
             app:srcCompat="@drawable/infor" />
 
         <ImageButton
-            android:id="@+id/imageButton19"
+            android:id="@+id/abajoBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_above="@+id/infoBtn"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_alignTop="@+id/imageButton15"
-            android:layout_marginTop="81dp"
+            android:layout_marginBottom="36dp"
             app:srcCompat="@drawable/flechaabajo" />
+
+        <TextView
+            android:id="@+id/TxtScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/TxtScore"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/TxtScoreat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TxtScore"
+            android:layout_centerHorizontal="true"
+            android:text="0"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24sp" />
     </RelativeLayout>
 
 
