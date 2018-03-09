@@ -7,6 +7,9 @@ import android.graphics.Color;
 import android.graphics.ColorFilter;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
+import android.media.MediaPlayer;
+import android.os.CountDownTimer;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -26,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     public static int tablero[][] = new int[22][16];
     public static Pieza actual = new Pieza();
     public static int score = 0;
+    public static CountDownTimer piezas;
+
 
     public static void reiniciarTablero(){
         for (int f=0; f < 22; f++){
@@ -50,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
         Random a = new Random();
         int opt = a.nextInt(4);
-        switch (2){
+        switch (3){
             case 0: generarCuadrado(color); break;
             case 1: generarZ(color); break;
             case 2: generarI(color); break;
@@ -74,6 +79,12 @@ public class MainActivity extends AppCompatActivity {
             agregarTablero();
             drawPiece();
         }
+        else{
+            actual=null;
+            piezas.onFinish();
+            piezas.cancel();
+            return;
+        }
 
     }
 
@@ -88,10 +99,16 @@ public class MainActivity extends AppCompatActivity {
         if (CheckCreation(pos)){
             actual = temp;
             actual.setColor(color);
-            actual.setRotation(0);
+            actual.setRotation(2);
             actual.setId(1);
             agregarTablero();
             drawPiece();
+        }
+        else{
+            actual=null;
+            piezas.onFinish();
+            piezas.cancel();
+            return;
         }
     }
 
@@ -111,6 +128,12 @@ public class MainActivity extends AppCompatActivity {
             agregarTablero();
             drawPiece();
         }
+        else{
+            actual=null;
+            piezas.onFinish();
+            piezas.cancel();
+            return;
+        }
     }
 
     public void generarI(int color){
@@ -128,6 +151,12 @@ public class MainActivity extends AppCompatActivity {
             actual.setId(3);
             agregarTablero();
             drawPiece();
+        }
+        else{
+            actual=null;
+            piezas.onFinish();
+            piezas.cancel();
+            return;
         }
     }
 
@@ -276,14 +305,53 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Toast.makeText(MainActivity.this, "Rotacion Invalida", Toast.LENGTH_SHORT).show();
                     }
-                } else {
-                    actual.setRotation(0);
+                } else if (actual.getRotation() == 1) {
+                    actual.setRotation(2);
                     int init = actual.getPosiciones()[0];
                     int Fpos[] = new int[4];
                     Fpos[0] = init;
                     Fpos[1] = init + 1;
                     Fpos[2] = init + 2;
                     Fpos[3] = init + 102;
+                    if (CheckRotation(Fpos)) {
+                        clearPiece();
+                        limpiarTablero();
+                        actual.setPosiciones(Fpos);
+                        agregarTablero();
+                        drawPiece();
+                    } else {
+                        Toast.makeText(MainActivity.this, "Rotacion Invalida", Toast.LENGTH_SHORT).show();
+                    }
+
+                }
+                else if (actual.getRotation() == 2) {
+                    actual.setRotation(3);
+                    int init = actual.getPosiciones()[0];
+                    int Fpos[] = new int[4];
+                    Fpos[0] = init;
+                    Fpos[1] = init - 100;
+                    Fpos[2] = init - 200;
+                    Fpos[3] = init - 200 + 1;
+
+                    if (CheckRotation(Fpos)) {
+                        clearPiece();
+                        limpiarTablero();
+                        actual.setPosiciones(Fpos);
+                        agregarTablero();
+                        drawPiece();
+                    } else {
+                        Toast.makeText(MainActivity.this, "Rotacion Invalida", Toast.LENGTH_SHORT).show();
+                    }
+
+                }
+                else {
+                    actual.setRotation(0);
+                    int init = actual.getPosiciones()[0];
+                    int Fpos[] = new int[4];
+                    Fpos[0] = init;
+                    Fpos[1] = init - 1;
+                    Fpos[2] = init - 2;
+                    Fpos[3] = init - 102;
                     if (CheckRotation(Fpos)) {
                         clearPiece();
                         limpiarTablero();
@@ -355,14 +423,52 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Toast.makeText(MainActivity.this, "Movimiento Invalido", Toast.LENGTH_SHORT).show();
                     }
-                } else {
-                    actual.setRotation(0);
+                } else if (actual.getRotation() == 1) {
+                    actual.setRotation(2);
                     int init = actual.getPosiciones()[0];
                     int Fpos[] = new int[4];
                     Fpos[0] = init;
                     Fpos[1] = init + 1;
                     Fpos[2] = init + 2;
                     Fpos[3] = init + 3;
+                    if (CheckRotation(Fpos)) {
+                        clearPiece();
+                        limpiarTablero();
+                        actual.setPosiciones(Fpos);
+                        agregarTablero();
+                        drawPiece();
+                    } else {
+                        Toast.makeText(MainActivity.this, "Movimiento Invalido", Toast.LENGTH_SHORT).show();
+                    }
+
+                }
+                else if (actual.getRotation() == 2) {
+                    actual.setRotation(3);
+                    int init = actual.getPosiciones()[0];
+                    int Fpos[] = new int[4];
+                    Fpos[0] = init;
+                    Fpos[1] = init - 100;
+                    Fpos[2] = init - 200;
+                    Fpos[3] = init - 300;
+                    if (CheckRotation(Fpos)) {
+                        clearPiece();
+                        limpiarTablero();
+                        actual.setPosiciones(Fpos);
+                        agregarTablero();
+                        drawPiece();
+                    } else {
+                        Toast.makeText(MainActivity.this, "Movimiento Invalido", Toast.LENGTH_SHORT).show();
+                    }
+
+                }
+                else {
+                    actual.setRotation(0);
+                    int init = actual.getPosiciones()[0];
+                    int Fpos[] = new int[4];
+                    Fpos[0] = init;
+                    Fpos[1] = init - 1;
+                    Fpos[2] = init - 2;
+                    Fpos[3] = init - 3;
                     if (CheckRotation(Fpos)) {
                         clearPiece();
                         limpiarTablero();
@@ -545,12 +651,48 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         reiniciarTablero();
         generarPieza();
-
-        ImageButton DerchaBtn = findViewById(R.id.derechaBtn);
-        ImageButton IzquierdaBtn = findViewById(R.id.izquierdaBtn);
-        ImageButton AbajoBtn = findViewById(R.id.abajoBtn);
-        ImageButton rotarBtn = findViewById(R.id.rotarBtn);
+        final ImageButton DerchaBtn = findViewById(R.id.derechaBtn);
+        final ImageButton IzquierdaBtn = findViewById(R.id.izquierdaBtn);
+        final ImageButton AbajoBtn = findViewById(R.id.abajoBtn);
+        final ImageButton rotarBtn = findViewById(R.id.rotarBtn);
         ImageButton infoBtn = findViewById(R.id.infoBtn);
+
+        final Handler game = new Handler();
+        final Runnable r = new Runnable() {
+            @Override
+            public void run() {
+                if (CheckMove(1,0)){
+                    clearPiece();
+                    limpiarTablero();
+                    movimiento(1,0);
+                    agregarTablero();
+                    drawPiece();
+                }
+                else{
+                    vereficarLineas();
+                    generarPieza();
+                }
+
+            }
+        };
+
+        piezas = new CountDownTimer(1000000,700){
+            public void onTick(long millisUntilFinished) {
+                game.postAtTime(r,100);
+            }
+            public void onFinish() {
+                DerchaBtn.setEnabled(false);
+                IzquierdaBtn.setEnabled(false);
+                AbajoBtn.setEnabled(false);
+                rotarBtn.setEnabled(false);
+                Toast.makeText(MainActivity.this, "Puntuacion Final: "+String.valueOf(score), Toast.LENGTH_LONG).show();
+            }
+        }.start();
+
+
+        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.tetris);
+        mediaPlayer.start();
+
 
         DerchaBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -596,6 +738,7 @@ public class MainActivity extends AppCompatActivity {
                     agregarTablero();
                     drawPiece();
                 }
+                actual = null;
                 vereficarLineas();
                 generarPieza();
 
