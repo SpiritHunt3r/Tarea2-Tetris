@@ -54,12 +54,13 @@ public class MainActivity extends AppCompatActivity {
         Random rnd = new Random();
         int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
         Random a = new Random();
-        int opt = a.nextInt(4);
+        int opt = a.nextInt(5);
         switch (opt){
             case 0: generarCuadrado(color); break;
             case 1: generarZ(color); break;
             case 2: generarI(color); break;
             case 3: generarL(color); break;
+            case 4: generarT(color); break;
         }
     }
 
@@ -149,6 +150,30 @@ public class MainActivity extends AppCompatActivity {
             actual.setColor(color);
             actual.setRotation(0);
             actual.setId(3);
+            agregarTablero();
+            drawPiece();
+        }
+        else{
+            actual=null;
+            piezas.onFinish();
+            piezas.cancel();
+            return;
+        }
+    }
+
+    public void generarT(int color){
+        Pieza temp = new Pieza();
+        int pos[] = new int[4];
+        pos[0] = 104;
+        pos[1] = 105;
+        pos[2] = 106;
+        pos[3] = 205;
+        temp.setPosiciones(pos);
+        if (CheckCreation(pos)){
+            actual = temp;
+            actual.setColor(color);
+            actual.setRotation(1);
+            actual.setId(4);
             agregarTablero();
             drawPiece();
         }
@@ -482,7 +507,83 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
             }
+            case 4: {
+                if (actual.getRotation() == 0) {
+                    actual.setRotation(1);
+                    int init = actual.getPosiciones()[0];
+                    int Fpos[] = new int[4];
+                    Fpos[0] = init;
+                    Fpos[1] = init + 1;
+                    Fpos[2] = init + 2;
+                    Fpos[3] = init + 101;
+                    if (CheckRotation(Fpos)) {
+                        clearPiece();
+                        limpiarTablero();
+                        actual.setPosiciones(Fpos);
+                        agregarTablero();
+                        drawPiece();
+                    } else {
+                        Toast.makeText(MainActivity.this, "Movimiento Invalido", Toast.LENGTH_SHORT).show();
+                    }
+                } else if (actual.getRotation() == 1) {
+                    actual.setRotation(2);
+                    int init = actual.getPosiciones()[0];
+                    int Fpos[] = new int[4];
+                    Fpos[0] = init;
+                    Fpos[1] = init + 100;
+                    Fpos[2] = init + 200;
+                    Fpos[3] = init + 100 - 1;
+                    if (CheckRotation(Fpos)) {
+                        clearPiece();
+                        limpiarTablero();
+                        actual.setPosiciones(Fpos);
+                        agregarTablero();
+                        drawPiece();
+                    } else {
+                        Toast.makeText(MainActivity.this, "Movimiento Invalido", Toast.LENGTH_SHORT).show();
+                    }
 
+                }
+                else if (actual.getRotation() == 2) {
+                    actual.setRotation(3);
+                    int init = actual.getPosiciones()[0];
+                    int Fpos[] = new int[4];
+                    Fpos[0] = init;
+                    Fpos[1] = init - 1;
+                    Fpos[2] = init - 2;
+                    Fpos[3] = init - 101;
+                    if (CheckRotation(Fpos)) {
+                        clearPiece();
+                        limpiarTablero();
+                        actual.setPosiciones(Fpos);
+                        agregarTablero();
+                        drawPiece();
+                    } else {
+                        Toast.makeText(MainActivity.this, "Movimiento Invalido", Toast.LENGTH_SHORT).show();
+                    }
+
+                }
+                else {
+                    actual.setRotation(0);
+                    int init = actual.getPosiciones()[0];
+                    int Fpos[] = new int[4];
+                    Fpos[0] = init;
+                    Fpos[1] = init - 100;
+                    Fpos[2] = init - 200;
+                    Fpos[3] = init - 100 + 1;
+                    if (CheckRotation(Fpos)) {
+                        clearPiece();
+                        limpiarTablero();
+                        actual.setPosiciones(Fpos);
+                        agregarTablero();
+                        drawPiece();
+                    } else {
+                        Toast.makeText(MainActivity.this, "Movimiento Invalido", Toast.LENGTH_SHORT).show();
+                    }
+
+                }
+                break;
+            }
         }
     }
 
@@ -548,7 +649,7 @@ public class MainActivity extends AppCompatActivity {
                 tmp.setDrawingCacheEnabled(true);
                 tmp.buildDrawingCache(true);
                 Bitmap a = tmp.getDrawingCache();
-                int pixel = a.getPixel(0,0);
+                int pixel = a.getPixel(10,10);
                 int r = Color.red(pixel);
                 int g = Color.green(pixel);
                 int b = Color.blue(pixel);
@@ -561,7 +662,7 @@ public class MainActivity extends AppCompatActivity {
                 tmp.setDrawingCacheEnabled(true);
                 tmp.buildDrawingCache(true);
                 Bitmap a = tmp.getDrawingCache();
-                int pixel = a.getPixel(0,0);
+                int pixel = a.getPixel(10,10);
                 int r = Color.red(pixel);
                 int g = Color.green(pixel);
                 int b = Color.blue(pixel);
@@ -577,7 +678,7 @@ public class MainActivity extends AppCompatActivity {
                 tmp.setDrawingCacheEnabled(true);
                 tmp.buildDrawingCache(true);
                 Bitmap a = tmp.getDrawingCache();
-                int pixel = a.getPixel(0,0);
+                int pixel = a.getPixel(10,10);
                 int r = Color.red(pixel);
                 int g = Color.green(pixel);
                 int b = Color.blue(pixel);
@@ -590,7 +691,7 @@ public class MainActivity extends AppCompatActivity {
                 tmp.setDrawingCacheEnabled(true);
                 tmp.buildDrawingCache(true);
                 Bitmap a = tmp.getDrawingCache();
-                int pixel = a.getPixel(0,0);
+                int pixel = a.getPixel(10,10);
                 int r = Color.red(pixel);
                 int g = Color.green(pixel);
                 int b = Color.blue(pixel);
