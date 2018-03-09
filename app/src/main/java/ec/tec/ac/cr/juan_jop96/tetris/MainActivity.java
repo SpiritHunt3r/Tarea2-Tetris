@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
         Random a = new Random();
         int opt = a.nextInt(4);
-        switch (3){
+        switch (opt){
             case 0: generarCuadrado(color); break;
             case 1: generarZ(color); break;
             case 2: generarI(color); break;
