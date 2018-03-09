@@ -7,6 +7,7 @@ import android.widget.ImageView;
  */
 
 public class Pieza {
+    private int id;
     private int posiciones[] = new int[4];
     private int rotation;
     private int color;
@@ -14,12 +15,20 @@ public class Pieza {
 
     public Pieza(){}
 
-    public Pieza(int[] posiciones, int rotation, int color) {
+    public Pieza(int id, int[] posiciones, int rotation, int color) {
+        this.id = id;
         this.posiciones = posiciones;
         this.rotation = rotation;
         this.color = color;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public int[] getPosiciones() {
         return posiciones;
